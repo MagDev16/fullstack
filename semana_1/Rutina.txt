@@ -1,0 +1,48 @@
+1. Inicio
+2. Levantar de cama
+    a. Si me levanto antes de que suene la alarma
+        1. Levantarse de la cama
+    b. Si no
+        i. Me despierto con la primera alarma
+            1. Levantarse de la cama
+        ii. Si no
+            1. Me despierto con la segunda alarma
+            2. Levantarse de la cama
+3. Ir al baño
+    a. Lavarme los dientes
+    b. Usar el servicio
+    c. Ducharme
+        i. Si tengo ropa y sandalias
+            1. Salir del baño
+        ii. Si no
+            1. Pedir las sandalias
+            2. Salir del baño
+4. Tender paño
+5. Entrar al cuarto
+    a. Vestirme
+6. Ir a la cocina
+7. Encender el PC
+    a. Loguear los datos para abrir programas
+    b. Trabajar (repetir ciclo durante el horario laboral)
+        i. Si necesito ir al baño
+            1. Usar el servicio
+        ii. Hacer los tickets correspondientes (repetir en intervalos)
+        iii. Almorzar
+        iv. Continuar trabajando (repetir ciclo durante el horario laboral)
+        v. Hacer los tickets correspondientes (repetir en intervalos)
+        vi. Si necesito ir al baño
+            1. Usar el servicio
+    c. Dejar de trabajar
+8. Cenar
+    a. Preparar la cena
+        i. Si hay tales ingredientes
+            1. Hacer receta uno
+        ii. Si no
+            1. Hacer otra receta
+9. Ocio
+    a. Hacer hobby
+10. Ir al baño
+    a. Lavarme los dientes
+    b. Usar el servicio
+11. Dormir
+12. FIN
