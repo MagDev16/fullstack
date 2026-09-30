@@ -1,0 +1,9 @@
+La herencia es una característica de POO que permite a una clase derivar característica y comportamientos (atributos y métodos) demás de una clase base.
+
+Usos principales
+
+Composición de Mixins, que es el uso más común y recomendado, esto es una clase pequeña que provee una funcionalidad especifica (registrar logs, validar permisos) y que se combina con clases principales sin representar una relación estricta de "es un".
+
+Combinación de interfaces o abstracciones, permitiendo que una clase cumpla simultáneamente con múltiples contratos o interfaces (que un objeto sea tanto renderizadle como actualizable)
+
+Reutilización modular de código, facilitando integrar capacidades independientes desarrolladas por separado dentro de una única entidad.
