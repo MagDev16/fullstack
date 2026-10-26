@@ -43,7 +43,7 @@ class Deque:
             self.head.prev = None
         return data
     
-    def pop_irght(self):
+    def pop_right(self):
         if self.tail is None:
             raise IndexError("La cola esta vacia")
         data = self.tail.data

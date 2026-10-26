@@ -49,7 +49,7 @@ if __name__ == "__main__":
     my_pila.push(20)
     my_pila.push(30)
     
-    my_pila.print_stack
+    my_pila.print_stack()
     
     eliminated = my_pila.pop()
     print(f"\nEl elemento eliminado con pop: {eliminated}\n")
