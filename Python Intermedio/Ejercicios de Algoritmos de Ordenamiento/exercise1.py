@@ -2,10 +2,10 @@
 # ALGORITMO BUBBLE SORT
 # ==============================================================================
 
-def bubble_sort(list):
-    n = len(list)
+def bubble_sort(list_data):
+    n = len(list_data)
     
-    # Iteration through all the elements in the list
+    # Iteration through all the elements in the list_data
     for i in range(n):
         swapped = False
         
@@ -13,16 +13,16 @@ def bubble_sort(list):
         for j in range(0, n - i - 1):
             
             # If the current element is greater than the next one, we swap them
-            if list[j] > list[j + 1]:
-                list[j], list[j + 1] = list[j + 1], list[j]
+            if list_data[j] > list_data[j + 1]:
+                list_data[j], list_data[j + 1] = list_data[j + 1], list_data[j]
                 swapped = True
         
         # Optimization: if no changes occurred during a full pass,
-        # it means the list is already completely sorted, so we exit.        
+        # it means the list_data is already completely sorted, so we exit.        
         if not swapped:
             break
         
-    return list
+    return list_data
 
 # ==============================================================================
 # CASO DE PRUEBA Y DEMOSTRACIÓN
